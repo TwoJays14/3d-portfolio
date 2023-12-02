@@ -1,4 +1,6 @@
-import React, { useRef, useEffect, useState } from 'react';
+'use client';
+
+import { useRef, useEffect, useState } from 'react';
 import { useGLTF } from '@react-three/drei';
 import { useFrame, useThree } from '@react-three/fiber';
 import { a } from '@react-spring/three';
@@ -20,7 +22,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     setIsRotating(true);
 
     const clientX = e.touches ? e.touches[0].clientX : e.clientX; // figure out if its a touch event (mobile) or not
-
+    console.log({ clientX }, 'Event:', e);
     lastX.current = clientX;
   };
 
