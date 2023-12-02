@@ -1,6 +1,6 @@
 import { div } from 'three/examples/jsm/nodes/Nodes.js';
 import Link from 'next/link';
-import { Arrow } from '../icons/icons';
+import { Arrow } from '../icons';
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
