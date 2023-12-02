@@ -11,7 +11,7 @@ const Navbar = () => {
       </Link>
       <nav className="flex text-lg gap-7 font-medium">
         <Link href="/about">About</Link>
-        <Link href="/projects">Projects</Link>{' '}
+        <Link href="/projects">Projects</Link>&rsquo;
       </nav>
     </header>
   );
