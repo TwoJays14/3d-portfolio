@@ -13,21 +13,27 @@ import sakura from './sakura.mp3';
 import { soundoff, soundon } from './icons';
 
 const HomePage = () => {
-  const audioRef = useRef(new Audio(sakura));
-  audioRef.current.volume = 0.4;
-  audioRef.current.loop = true;
+  // const audioRef = useRef(new Audio(sakura));
+  // audioRef.current.volume = 0.4;
+  // audioRef.current.loop = true;
   const [isPlayingMusic, setIsPlayingMusic] = useState(false);
   const [currentStage, setCurrentStage] = useState(1);
   const [isRotating, setIsRotating] = useState(false);
 
   useEffect(() => {
-    if (isPlayingMusic) {
-      audioRef.current.play();
-    }
+    if (typeof window !== 'undefined') {
+      const audio = new Audio(sakura);
+      audio.volume = 0.4;
+      audio.loop = true;
 
-    return () => {
-      audioRef.current.pause();
-    };
+      if (isPlayingMusic) {
+        audio.play();
+      }
+
+      return () => {
+        audio.pause();
+      };
+    }
   }, [isPlayingMusic]);
 
   const adjustIslandForScreenSize = () => {
