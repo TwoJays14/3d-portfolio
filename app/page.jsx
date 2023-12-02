@@ -26,14 +26,20 @@ const HomePage = () => {
         screenScale = [1, 1, 1];
         screenPosition = [0, -6.5, -43];
       }
+
+      return [screenScale, screenPosition, rotation];
     }
 
-    return [screenScale, screenPosition, rotation];
+    return [
+      [0.9, 0.9, 0.9],
+      [0, -6.5, -43],
+      [0.1, 4.7, 0],
+    ];
   };
 
   const adjustPlaneForScreenSize = () => {
     let screenScale, screenPosition;
-    
+
     if (typeof window !== 'undefined') {
       if (window.innerWidth < 768) {
         screenScale = [1.5, 1.5, 1.5];
@@ -42,9 +48,13 @@ const HomePage = () => {
         screenScale = [3, 3, 3];
         screenPosition = [0, -4, -4];
       }
+      return [screenScale, screenPosition];
     }
 
-    return [screenScale, screenPosition];
+    return [
+      [1.5, 1.5, 1.5],
+      [0, -1.5, 0],
+    ];
   };
 
   const [islandScale, islandPosition, islandRotation] =
