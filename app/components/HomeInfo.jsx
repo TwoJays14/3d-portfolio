@@ -1,13 +1,13 @@
 import { div } from 'three/examples/jsm/nodes/Nodes.js';
 import Link from 'next/link';
-import { Arrow } from '../icons';
+// import { Arrow } from '../icons';
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
     <p className="font-medium sm:text-xl text-center">{text}</p>
     <Link className="neo-brutalism-white neo-btn" href={link}>
       {btnText}
-      <img src={Arrow} alt="arrow" className="w-4 h-4 object-contain " />
+      {/* <img src={Arrow} alt="arrow" className="w-4 h-4 object-contain " /> */}
     </Link>
   </div>
 );
