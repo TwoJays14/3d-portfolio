@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from '../images';
+import { meta, shopify, starbucks, tesla, amazon } from '../images';
 import {
   car,
   contact,
@@ -24,6 +24,14 @@ import {
   tailwindcss,
   threads,
   typescript,
+  python,
+  flask,
+  bootstrap,
+  docker,
+  jest,
+  vitest,
+  postgres,
+  lafosse,
 } from '../icons';
 
 export const skills = [
@@ -63,16 +71,6 @@ export const skills = [
     type: 'Database',
   },
   {
-    imageUrl: motion,
-    name: 'Motion',
-    type: 'Animation',
-  },
-  {
-    imageUrl: mui,
-    name: 'Material-UI',
-    type: 'Frontend',
-  },
-  {
     imageUrl: nextjs,
     name: 'Next.js',
     type: 'Frontend',
@@ -93,11 +91,6 @@ export const skills = [
     type: 'State Management',
   },
   {
-    imageUrl: sass,
-    name: 'Sass',
-    type: 'Frontend',
-  },
-  {
     imageUrl: tailwindcss,
     name: 'Tailwind CSS',
     type: 'Frontend',
@@ -107,59 +100,71 @@ export const skills = [
     name: 'TypeScript',
     type: 'Frontend',
   },
+  {
+    imageUrl: python,
+    name: 'Python',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: flask,
+    name: 'Flask',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: bootstrap,
+    name: 'Bootstrap',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: docker,
+    name: 'Docker',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: jest,
+    name: 'Jest',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: vitest,
+    name: 'Vitest',
+    type: 'Frontend',
+  },
+  {
+    imageUrl: postgres,
+    name: 'PostegreSQL',
+    type: 'Frontend',
+  },
 ];
 
 export const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#accbe1',
-    date: 'March 2020 - April 2021',
+    title: 'Tech Trainee',
+    company_name: 'La Fosse',
+    icon: lafosse,
+    iconBg: '#fff',
+    date: 'Sept 2023 - current',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Completed a comprehensive 12-week tech training program with 100% attendance record, at La Fosse Academy, specializing in full-stack web development and architectural thinking.',
+      'Actively engaged in collaborative team projects, applying Agile methodologies to develop practical solutions and enhance problem-solving skills.',
+      'Received a top score of 100% in Lap 3 assignment, showcasing proficiency in the PERN Stack, seamlessly integrating them to develop a comprehensive web application.',
+      'Attained 80% test coverage during production of an Educational Revision Web App, showcasing a commitment to quality assurance and adherence to Test-Driven Development (TDD) principles.',
+      'Achieved a 90% average score in assessments across the course duration, showcasing a strong grasp of full-stack web development and architectural thinking concepts.',
+      'Led a cross-functional team in the development of a complex revision web application resulting in on-time project completion and positive client feedback.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#fbc3bc',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'Area Manager',
+    company_name: 'Amazon',
+    icon: amazon,
+    iconBg: '#ff9900',
+    date: 'Feb 2022 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#b7e4c7',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#a2d2ff',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed effective relationships with key internal and external stakeholders i.e., HR and H&S to review, refine and deliver key training programs.',
+      'Mastered AWS native technologies to high degrees of proficiency in order to deep dive process efficiency and quality compliance.',
+      'Accurately conveyed technical information to a variety of stakeholders with varying expertise to drive operational excellence and consistency.',
+      'Examined problem-solving strategies, highlighting development opportunities and implementing structural changes to improve average process dwell times by 15%.',
+      'Analyzed relevant productivity related data to make process changes resulting in an 18% increase in associate productivity from Nov 22 - Jan 23.',
     ],
   },
 ];
@@ -173,12 +178,12 @@ export const socialLinks = [
   {
     name: 'GitHub',
     iconUrl: github,
-    link: 'https://github.com/YourGitHubUsername',
+    link: 'https://github.com/TwoJays14',
   },
   {
     name: 'LinkedIn',
     iconUrl: linkedin,
-    link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    link: 'https://www.linkedin.com/in/jermaine-jatau-582553142',
   },
 ];
 
@@ -186,49 +191,57 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
+    name: 'Koding Kombat',
     description:
-      'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
+      'Koding Kombat is an engaging educational coding platform tailored for adolescents, providing a fun and interactive way to learn coding skills, with a focus on Python. ',
+    link: 'https://koding-kombat.onrender.com/',
   },
   {
     iconUrl: threads,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
+    name: 'Revision Application',
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
+      'Experience an innovative Revision App that gamifies computer science study, offering a dynamic blend of engaging gamification and a Pomodoro timer for optimal learning and productivity.',
+    link: 'https://react-and-relax-site.onrender.com/',
   },
   {
     iconUrl: car,
     theme: 'btn-back-blue',
-    name: 'Car Finding App',
+    name: 'Promptopia',
     description:
-      'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+      'Promptopia is an open-source AI prompting tool for the modern world to discover, create and share creative prompts',
+    link: 'https://prompt-ai-omega.vercel.app/',
   },
   {
     iconUrl: snapgram,
     theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
+    name: 'Bookstore Application',
     description:
-      'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
+      'Explore a seamless literary journey with this MERN stack-powered Bookstore App, combining cutting-edge technology for a rich and immersive library experience.',
+    link: 'https://github.com/TwoJays14/bookstore-mern',
   },
   {
     iconUrl: estate,
     theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    name: 'Meme Generator',
     description:
-      'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
+      'Unleash creativity with our MERN stack-powered Meme Generator, providing a user-friendly platform to craft and share humor in an instant.',
+    link: 'https://github.com/TwoJays14/meme_generator',
   },
   {
     iconUrl: summiz,
     theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    name: 'Youtube Clone',
     description:
-      'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+      'Experience the world of video sharing with our YouTube Clone, meticulously designed using only HTML and CSS, offering a user-friendly interface for seamless content creation and viewing.',
+    link: 'https://dankj2.sg-host.com/Projects/10/',
+  },
+  {
+    iconUrl: threads,
+    theme: 'btn-back-pink',
+    name: 'Exercise Tracker Application',
+    description:
+      'Effortlessly track your fitness journey with our Exercise Tracker app. Crafted with precision using Vanilla JS and LeafletJS, it seamlessly integrates Local Storage and Geolocation API for a personalized and intuitive workout experience.',
+    link: 'https://dankj2.sg-host.com/Projects/4/',
   },
 ];

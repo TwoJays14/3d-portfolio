@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
-        Hello, I&apos;m
+        Hello, I&apos;m&nbsp;
         <span className="blue-gradient_text font-semibold drop-shadow">
           Jermaine
         </span>
@@ -47,8 +47,24 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I&apos;ve worked with all sorts of companies&comma; leveling up my
-            skills and teaming up with smart people to build awesome products&#x3a;
+            As a junior software developer, I've embarked on an enriching
+            journey, collaborating with various companies to kickstart my career
+            in the dynamic field of software development. These experiences have
+            been invaluable, providing me with hands-on opportunities to
+            contribute to real-world projects. Working alongside talented and
+            supportive teams, I've had the chance to immerse myself in the
+            intricacies of software development, rapidly advancing my skills and
+            knowledge.
+            <br />
+            <br />
+            My journey has been marked by a commitment to learning, a passion
+            for problem-solving, and a dedication to creating meaningful and
+            efficient solutions. Each project has been a stepping stone,
+            allowing me to gain practical insights into the industry and
+            fostering a deep appreciation for collaboration and innovation. I
+            look forward to continuing this exciting adventure, leveraging my
+            skills to contribute to even more remarkable products and furthering
+            my growth as a dedicated software developer
           </p>
         </div>
         <div className="mt-12 flex">

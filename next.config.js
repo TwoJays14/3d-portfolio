@@ -16,6 +16,21 @@ const nextConfig = {
       ],
     });
 
+    // Add the file-loader rule for handling mp3 files
+    config.module.rules.push({
+      test: /\.(mp3)$/i,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            publicPath: '/_next/static/audio',
+            outputPath: 'static/audio',
+            name: '[name].[ext]',
+          },
+        },
+      ],
+    });
+
     return config;
   },
 };
