@@ -47,26 +47,25 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            As a junior software developer&comma; I&apos;ve embarked on an
-            enriching journey&comma; collaborating with various companies to
+            As a junior software developer&#44; I&apos;ve embarked on an
+            enriching journey&#44; collaborating with various companies to
             kickstart my career in the dynamic field of software
-            development&period; These experiences have been invaluable&comma;
+            development&#46; These experiences have been invaluable&#44;
             providing me with hands-on opportunities to contribute to real-world
-            projects. Working alongside talented and supportive teams&comma;
+            projects. Working alongside talented and supportive teams&#44;
             I&apos;ve had the chance to immerse myself in the intricacies of
-            software development&comma; rapidly advancing my skills and
-            knowledge.
+            software development&#44; rapidly advancing my skills and knowledge.
             <br />
             <br />
-            My journey has been marked by a commitment to learning&comma; a
-            passion for problem-solving&comma; and a dedication to creating
-            meaningful and efficient solutions&period; Each project has been a
-            stepping stone&comma; allowing me to gain practical insights into
-            the industry and fostering a deep appreciation for collaboration and
-            innovation&period; I look forward to continuing this exciting
-            adventure&comma; leveraging my skills to contribute to even more
+            My journey has been marked by a commitment to learning&#44; a
+            passion for problem-solving&#44; and a dedication to creating
+            meaningful and efficient solutions&#46; Each project has been a
+            stepping stone&#44; allowing me to gain practical insights into the
+            industry and fostering a deep appreciation for collaboration and
+            innovation&#46; I look forward to continuing this exciting
+            adventure&#44; leveraging my skills to contribute to even more
             remarkable products and furthering my growth as a dedicated software
-            developer&period;
+            developer&#46;
           </p>
         </div>
         <div className="mt-12 flex">
