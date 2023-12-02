@@ -1,4 +1,3 @@
-import { render } from 'react-dom';
 import { div } from 'three/examples/jsm/nodes/Nodes.js';
 import Link from 'next/link';
 import { Arrow } from '../icons/icons';
