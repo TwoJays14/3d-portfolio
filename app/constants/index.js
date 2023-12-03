@@ -11,16 +11,13 @@ import {
   javascript,
   linkedin,
   mongodb,
-  motion,
   mui,
   nextjs,
   nodejs,
   pricewise,
   react,
   redux,
-  sass,
   snapgram,
-  summiz,
   tailwindcss,
   threads,
   typescript,
@@ -32,6 +29,7 @@ import {
   vitest,
   postgres,
   lafosse,
+  video,
 } from '../icons';
 
 export const skills = [
@@ -229,7 +227,7 @@ export const projects = [
     link: 'https://github.com/TwoJays14/meme_generator',
   },
   {
-    iconUrl: summiz,
+    iconUrl: video,
     theme: 'btn-back-yellow',
     name: 'Youtube Clone',
     description:

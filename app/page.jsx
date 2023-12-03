@@ -11,6 +11,7 @@ import HomeInfo from './components/HomeInfo';
 
 import sakura from './sakura.mp3';
 import { soundoff, soundon } from './icons';
+console.log('soundoff', soundoff);
 
 const HomePage = () => {
   // const audioRef = useRef(new Audio(sakura));
@@ -127,7 +128,7 @@ const HomePage = () => {
 
       <div className="absolute bottom-2 left-2">
         <img
-          src={!isPlayingMusic ? soundoff : soundon}
+          src={!isPlayingMusic ? soundoff.src : soundon.src}
           alt="sound"
           className="cursor-pointer w-10 h-10 object-contain"
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}

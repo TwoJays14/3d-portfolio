@@ -11,7 +11,6 @@ import nextjs from './nextjs.svg';
 import nodejs from './nodejs.svg';
 import react from './react.svg';
 import redux from './redux.svg';
-import sass from './sass.svg';
 import tailwindcss from './tailwindcss.svg';
 import typescript from './typescript.svg';
 import linkedin from './linkedin.svg';
@@ -20,12 +19,11 @@ import car from './car.svg';
 import estate from './estate.svg';
 import pricewise from './pricewise.svg';
 import snapgram from './snapgram.svg';
-import summiz from './summiz.svg';
 import threads from './threads.svg';
 import arrow from './arrow.svg';
 import contact from './contact.svg';
-import soundon from './soundon.png';
-import soundoff from './soundoff.png';
+import soundon from './soundon.svg';
+import soundoff from './soundoff.svg';
 import python from './python.svg';
 import flask from './flask.svg';
 import bootstrap from './bootstrap.svg';
@@ -34,6 +32,7 @@ import jest from './jest.svg';
 import vitest from './vitest.svg';
 import postgres from './postgresql.svg';
 import lafosse from './lafosse.webp';
+import video from './video.svg';
 
 export {
   css,
@@ -49,7 +48,6 @@ export {
   nodejs,
   react,
   redux,
-  sass,
   tailwindcss,
   typescript,
   linkedin,
@@ -58,7 +56,6 @@ export {
   estate,
   pricewise,
   snapgram,
-  summiz,
   threads,
   arrow,
   contact,
@@ -72,4 +69,5 @@ export {
   vitest,
   postgres,
   lafosse,
+  video,
 };
