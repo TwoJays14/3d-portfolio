@@ -21,21 +21,21 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Worked with many companies and picked up many skills along the way"
+      text="Collaborated with diverse teams on multifaceted projects, gaining a spectrum of skills as I navigated my journey as a junior full stack developer."
       link="/about"
       btnText="Learn More"
     />
   ),
   3: (
     <InfoBox
-      text="Led multiple projects to success over the years. Curious about the impact?"
+      text="As a junior full stack developer, I've enthusiastically acquired a diverse skill set through hands-on experiences with various projects and collaborations."
       link="/projects"
       btnText="Visit my portfolio"
     />
   ),
   4: (
     <InfoBox
-      text="Need a project done or looking for a dev? I'm just a few keystrokes away"
+      text="Ready to elevate your project or in need of a skilled developer? I'm just a few keystrokes away..."
       link="/contact"
       btnText="Let's talk"
     />
