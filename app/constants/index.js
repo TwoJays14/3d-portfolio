@@ -137,7 +137,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'Tech Trainee',
+    title: 'Tech Trainee | Full Stack Developer',
     company_name: 'La Fosse',
     icon: lafosse,
     iconBg: '#fff',
