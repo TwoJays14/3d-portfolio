@@ -22,7 +22,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     setIsRotating(true);
 
     const clientX = e.touches ? e.touches[0].clientX : e.clientX; // figure out if its a touch event (mobile) or not
-    console.log({ clientX }, 'Event:', e);
+    console.log('EVENT: ', e);
     lastX.current = clientX;
   };
 

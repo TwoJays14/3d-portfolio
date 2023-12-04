@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, amazon } from '../images';
+import { amazon } from '../images';
 import {
   car,
   contact,

@@ -8,12 +8,27 @@ import Bird from './models/Bird';
 import Plane from './models/Plane';
 import Loader from './components/Loader';
 import HomeInfo from './components/HomeInfo';
+import { motion, AnimatePresence } from 'framer-motion';
 
 import sakura from './sakura.mp3';
 import { soundoff, soundon } from './icons';
+
 console.log('soundoff', soundoff);
 
 const HomePage = () => {
+  const svgVariants = {
+    visible: {
+      rotate: 360,
+      transition: {
+        duration: 3,
+        repeat: Infinity,
+        ease: 'linear',
+      },
+    },
+
+    exit: { opacity: 0, transition: { duration: 0.5, ease: 'easeOut' } },
+  };
+
   // const audioRef = useRef(new Audio(sakura));
   // audioRef.current.volume = 0.4;
   // audioRef.current.loop = true;
@@ -134,6 +149,29 @@ const HomePage = () => {
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
         />
       </div>
+
+      <AnimatePresence>
+        {isRotating || (
+          <div className="flex flex-col items-center absolute bottom-5 left-1/2 transform -translate-x-1/2 fill-[#3C8BEA] z-30">
+            <motion.svg
+              className="sm:w-[50px] w-[70px]"
+              viewBox="0 0 528.916 528.916"
+              variants={svgVariants}
+              animate={!isRotating ? 'visible' : ''}
+              exit={isRotating ? 'exit' : ''}
+            >
+              <path
+                d="M523.859,232.329h-41.701c-5.07,0-9.715-4.073-10.59-9.067c-19.57-111.442-117-196.409-233.962-196.409
+			C106.589,26.853,0,133.441,0,264.458c0,131.018,106.589,237.605,237.606,237.605c12.675,0,22.95-10.275,22.95-22.949
+			s-10.275-22.949-22.95-22.949c-105.708,0-191.706-85.998-191.706-191.707c0-105.707,85.995-191.706,191.703-191.706
+			c91.583,0,168.325,64.569,187.208,150.564c1.086,4.951-2.359,9.012-7.426,9.012H380.66c-5.07,0-6.578,3.182-3.371,7.108
+			l69.162,84.621c3.209,3.926,8.408,3.926,11.619,0l69.162-84.621C530.439,235.511,528.928,232.329,523.859,232.329z"
+              />
+            </motion.svg>
+            <p className="text-blue-500 ">Click & Drag to Fly</p>
+          </div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
