@@ -141,7 +141,7 @@ export const experiences = [
     company_name: 'La Fosse',
     icon: lafosse,
     iconBg: '#fff',
-    date: 'Dec 2022 - current',
+    date: 'Sept 2023 - current',
     points: [
       'Spearheaded the development of several web applications, showcasing proficiency in utilizing advanced technologies including front-end JavaScript frameworks such as React/Nextjs.',
       'Employed Agile methodologies such as Scrum and Kanban to develop innovative solutions. Enhancing problem-solving skills and fostering a dynamic and cooperative work environment',
@@ -155,7 +155,7 @@ export const experiences = [
     company_name: 'Amazon',
     icon: amazon,
     iconBg: '#ff9900',
-    date: 'Feb 2022 - Dec 2022',
+    date: 'Feb 2022 - May 2023',
     points: [
       'Developed effective relationships with key internal and external stakeholders i.e., HR and H&S to review, refine and deliver key training programs.',
       'Mastered AWS native technologies to high degrees of proficiency in order to deep dive process efficiency and quality compliance.',
